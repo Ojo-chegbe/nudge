@@ -5,9 +5,8 @@ export default function Psychology() {
     <section className="w-full pb-16">
       {/* Separator / Sub-header - Aligned with container */}
       <div className="max-w-[1240px] mx-auto px-6 md:px-8 py-12">
-        <h2 className="text-3xl md:text-[40px] font-medium leading-tight text-white opacity-90 max-w-2xl">
-          Your wallpaper isn&apos;t just a background. <br />
-          It should serve as your daily Nudge.
+        <h2 className="text-3xl md:text-[40px] font-medium leading-tight text-white opacity-90 max-w-3xl">
+          A simple way to stay focused on your goals, reinforce better habits, and keep your attention on what actually matters.
         </h2>
       </div>
 
@@ -19,7 +18,7 @@ export default function Psychology() {
               The Psychology of Nudge.
             </h3>
             <p className="text-gray-400 text-lg leading-relaxed max-w-md font-light">
-              Every time you wake your screen, you make a choice. A nudge is not about productivity. It is about perspective. By creating wallpapers that place intentional thoughts directly on a clean background, Nudge provides passive reinforcement of what matters most. It is built to ground you before the digital chaos begins.
+              Inspiration fades but discipline remains. Nudge is a tool to protect your focus. By setting intentional thoughts on a clean background, it creates a strict visual cue that anchors your mindset. It is built to reinforce your commitment and fortify your daily decisions before you engage with the digital world.
             </p>
           </div>
           

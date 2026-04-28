@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Psychology from "@/components/Psychology";
+import WhyNudge from "@/components/WhyNudge";
 import Features from "@/components/Features";
 import Carousel from "@/components/Carousel";
 import FooterCTA from "@/components/FooterCTA";
@@ -14,6 +15,7 @@ export default function Home() {
         <Hero />
       </div>
       <Psychology />
+      <WhyNudge />
       <Features />
       <Carousel />
       <FooterCTA />

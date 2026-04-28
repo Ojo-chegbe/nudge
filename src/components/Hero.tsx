@@ -3,13 +3,17 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col items-center justify-center pt-20 pb-16 w-full text-center">
-      <h1 className="text-5xl md:text-[80px] font-medium tracking-tight text-white mb-10 leading-[1.1]">
-        Create text wallpapers <br className="hidden md:block" />
-        to keep goals in sight.
+    <section className="flex flex-col items-center justify-center pt-16 pb-12 w-full text-center">
+      <h1 className="text-5xl md:text-[80px] font-medium tracking-tight text-white mb-4 leading-[1.05]">
+        Build discipline every time <br className="hidden md:block" />
+        you unlock your phone.
       </h1>
 
-      <button className="flex items-center space-x-2 bg-[#0A91FF] text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-blue-600 transition-colors mb-20 shadow-[0_0_15px_rgba(10,145,255,0.4)]">
+      <p className="text-gray-400 text-lg md:text-xl max-w-2xl mb-8">
+        Turn your screen into a daily reminder of the goals, habits, and standards you want to live by.
+      </p>
+
+      <button className="flex items-center space-x-2 bg-[#0A91FF] text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-blue-600 transition-colors mb-12 shadow-[0_0_15px_rgba(10,145,255,0.4)]">
         <DownloadIcon className="w-5 h-5" />
         <span>Download app</span>
       </button>
