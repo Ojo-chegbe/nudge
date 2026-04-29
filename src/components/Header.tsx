@@ -17,9 +17,14 @@ export default function Header() {
         </Link>
       </nav>
 
-      <button className="bg-[#0A91FF] text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-blue-600 transition-colors">
+      <a
+        href="https://expo.dev/artifacts/eas/i7VhUVR7mWTHtJrqsyTNRq.apk"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-[#0A91FF] text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-blue-600 transition-colors"
+      >
         Download app
-      </button>
+      </a>
     </header>
   );
 }

@@ -20,7 +20,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section className="w-full pb-20">
+    <section id="process" className="w-full pb-20">
       <div className="max-w-[1240px] mx-auto px-6 md:px-8">
         <h2 className="text-4xl md:text-5xl font-medium text-white mb-10 tracking-tight">
           Simplicity at the core.

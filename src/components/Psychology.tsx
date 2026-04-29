@@ -11,7 +11,7 @@ export default function Psychology() {
       </div>
 
       {/* Main Psychology Content - Full Width Background */}
-      <div className="w-full bg-[#0D0E12] py-16 md:py-20">
+      <div className="w-full bg-[#030406] py-16 md:py-20">
         <div className="max-w-[1240px] mx-auto px-6 md:px-8 flex flex-col md:flex-row items-center gap-16">
           <div className="flex-1 space-y-2 text-left">
             <h3 className="text-4xl md:text-5xl font-medium text-white tracking-tight leading-tight">
@@ -22,11 +22,11 @@ export default function Psychology() {
             </p>
           </div>
           
-          <div className="flex-1 w-full aspect-[4/3] md:aspect-square relative rounded-2xl overflow-hidden bg-[#0A91FF] flex items-center justify-center p-4">
+          <div className="flex-1 w-full aspect-[4/3] md:aspect-square relative rounded-2xl overflow-hidden bg-[#0D0E12] border border-gray-800/30 flex items-center justify-center p-4">
             <div className="relative w-full h-full">
               <Image
-                src="/Images/Fontmockup.png"
-                alt="Font mockup"
+                src="/Images/psychology.png"
+                alt="Psychology of Nudge"
                 fill
                 className="object-contain"
                 priority

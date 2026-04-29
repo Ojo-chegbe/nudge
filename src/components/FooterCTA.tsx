@@ -9,10 +9,15 @@ export default function FooterCTA() {
           Put your highest standards exactly where you see them most.
         </h2>
         
-        <button className="flex items-center space-x-2 bg-[#0A91FF] text-white px-8 py-4 rounded-xl text-base font-medium hover:bg-blue-600 transition-all hover:scale-105 shadow-[0_0_20px_rgba(10,145,255,0.4)] mx-auto">
+        <a
+          href="https://expo.dev/artifacts/eas/i7VhUVR7mWTHtJrqsyTNRq.apk"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center w-fit space-x-2 bg-[#0A91FF] text-white px-8 py-4 rounded-xl text-base font-medium hover:bg-blue-600 transition-all hover:scale-105 shadow-[0_0_20px_rgba(10,145,255,0.4)] mx-auto"
+        >
           <DownloadIcon className="w-6 h-6" />
           <span>Download app</span>
-        </button>
+        </a>
       </div>
     </section>
   );

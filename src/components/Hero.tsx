@@ -13,10 +13,15 @@ export default function Hero() {
         Turn your screen into a daily reminder of the goals, habits, and standards you want to live by.
       </p>
 
-      <button className="flex items-center space-x-2 bg-[#0A91FF] text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-blue-600 transition-colors mb-12 shadow-[0_0_15px_rgba(10,145,255,0.4)]">
+      <a
+        href="https://expo.dev/artifacts/eas/i7VhUVR7mWTHtJrqsyTNRq.apk"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center justify-center w-fit space-x-2 bg-[#0A91FF] text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-blue-600 transition-colors mb-12 shadow-[0_0_15px_rgba(10,145,255,0.4)]"
+      >
         <DownloadIcon className="w-5 h-5" />
         <span>Download app</span>
-      </button>
+      </a>
 
       <div className="w-full relative rounded-2xl overflow-hidden aspect-[4/3] md:aspect-[1184/779] bg-[#0D0E12] flex items-center justify-center border border-gray-800/30">
 

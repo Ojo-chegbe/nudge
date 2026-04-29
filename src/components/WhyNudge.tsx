@@ -20,7 +20,7 @@ const cards = [
 
 export default function WhyNudge() {
   return (
-    <section className="w-full py-20">
+    <section id="benefits" className="w-full py-20">
       <div className="max-w-[1240px] mx-auto px-6 md:px-8">
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-end gap-6 mb-8">
