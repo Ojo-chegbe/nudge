@@ -1,5 +1,6 @@
 import DownloadIcon from "./icons/DownloadIcon";
 import Image from "next/image";
+import { DotPattern } from "./DotPattern";
 
 export default function Hero() {
   return (
@@ -24,7 +25,6 @@ export default function Hero() {
       </a>
 
       <div className="w-full relative rounded-2xl overflow-hidden aspect-[4/3] md:aspect-[1184/779] bg-[#0D0E12] flex items-center justify-center border border-gray-800/30">
-
         {/* Background Image */}
         <Image
           src="/Images/hero-imagebackground.png"
@@ -34,8 +34,18 @@ export default function Hero() {
           priority
         />
 
+        <DotPattern 
+          glowColor="#0A91FF" 
+          baseColor="#4b5563"
+          dotSize={2}
+          gap={24}
+          proximity={200}
+          glowIntensity={1.2}
+          className="z-0"
+        />
+
         {/* Mockup Container */}
-        <div className="relative w-full h-full flex items-center justify-center z-10">
+        <div className="relative w-full h-full flex items-center justify-center z-10 pointer-events-none">
           {/* Phone Mockup */}
           <Image
             src="/Images/Wallpapermockup.png"
